@@ -6,8 +6,8 @@ import { askQuestions } from "./data/prompts.js";
 
 import { generateExpressCode } from "./utils/generate-express-code.js";
 import { generateFastitfyCode } from "./utils/generate-fastify-code.js";
+import { generatePackageJsonFile } from "./utils/generate-package-json.js";
 
-import { generatePackageJsonFile } from "./middleware/generate-package-json.js";
 import { generateSuccessMessage } from "./middleware/generate-success-message.js";
 
 async function main() {

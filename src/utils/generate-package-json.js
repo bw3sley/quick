@@ -4,7 +4,7 @@ export async function generatePackageJsonFile(projectInfo) {
         version: '1.0.0',
         main: 'server.js',
         scripts: {
-          start: 'node server.js',
+          dev: 'node --watch .',
         },
         license: 'ISC',
         dependencies: {},
